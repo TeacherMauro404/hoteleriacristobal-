@@ -41,7 +41,7 @@ T("en1","Front Desk English","🛎️","English · Reception","Greetings & check
   [2,"Complete: 'The restaurant is ___ the lobby.' (al lado de)",["next to","next of","near of","beside of"],0],
   [3,"A guest asks: 'Where is the nearest pharmacy?' Which is a good answer?",["It's two blocks away, on the corner of Main Street.","Yes, I am a pharmacy.","Pharmacy is good.","I don't like pharmacies."],0],
   [3,"What does 'opposite' mean?",["Enfrente","Detrás","Al lado","Arriba"],0],
-  [4,"Complete: 'You can take a taxi ___ the airport. It takes about 30 minutes.'",["to","at","in","on"],0],
+  [4,"Complete: 'You can take a taxi ___ the bus station. It takes about 15 minutes.'",["to","at","in","on"],0],
   [5,"Which is a polite recommendation?",["I'd recommend visiting Cerro Alegre; the views are amazing.","You must go Cerro Alegre.","Go Cerro Alegre now.","Cerro Alegre is recommend."],0]]],
  ["Check-out & payment","💳",[
   [1,"Which sentence gives the check-out time?",["Check-out is at 12 noon.","Check-out is in the lobby.","Check-out is a card.","Check-out is free."],0],
@@ -108,7 +108,7 @@ T("en3","Housekeeping & Guest Requests","🧹","English · Housekeeping","Room i
   [1,"What is a 'blanket'?",["Frazada","Almohada","Cortina","Alfombra"],0],
   [2,"What are 'sheets'?",["Sábanas","Hojas de papel","Toallas","Cortinas"],0],
   [2,"What is a 'wardrobe' or 'closet'?",["Clóset","Cajón","Espejo","Lámpara"],0],
-  [3,"What is a 'hanger'?",["Colgador (percha)","Hangar de aviones","Cajón","Pinche de pelo"],0],
+  [3,"What is a 'hanger'?",["Colgador (percha)","Gancho de pesca","Cajón","Pinche de pelo"],0],
   [3,"What is the 'safe' in a hotel room?",["Caja fuerte","Seguro de viaje","Salida de emergencia","Cerradura"],0],
   [4,"What is a 'bedspread'?",["Cubrecama","Cama extra","Colchón","Cojín"],0],
   [5,"What is a 'rollaway bed'?",["Cama extra plegable con ruedas","Cama matrimonial","Cuna","Litera"],0]]],
@@ -148,25 +148,25 @@ T("en3","Housekeeping & Guest Requests","🧹","English · Housekeeping","Room i
  ["Bathroom amenities 🧴",["soap","shampoo","conditioner","toothbrush","shower cap"],"body lotion, comb, toothpaste, sewing kit, shaving kit"],
  ["Bedroom items 🛏️",["bed","pillow","blanket","wardrobe","lamp"],"sheets, curtains, mirror, desk, hanger, safe"]]),
 
-T("en4","Travel & Tourism English","✈️","English · Travel","At the airport · tours & excursions · transport · weather & clothing · describing places",[
- ["At the airport","🛫",[
-  [1,"What is a 'flight'?",["Vuelo","Pelea","Luz","Piso"],0],
-  [2,"What is the 'boarding pass'?",["Tarjeta de embarque","Pasaporte","Maleta","Puerta de salida"],0],
-  [2,"What is 'luggage' or 'baggage'?",["Equipaje","Pasaje","Asiento","Aduana"],0],
-  [3,"What is 'customs' at the airport?",["Aduana","Costumbres del país","Clientes","Tienda libre de impuestos"],0],
-  [3,"What does 'My flight is delayed' mean?",["Mi vuelo está retrasado","Mi vuelo está cancelado","Mi vuelo llegó temprano","Mi vuelo está lleno"],0],
-  [4,"What is the 'gate'?",["Puerta de embarque","Reja de la casa","Pista","Torre de control"],0],
-  [5,"What is 'jet lag'?",["Cansancio por el cambio de huso horario","Un tipo de avión","Un retraso de equipaje","Una maleta perdida"],0]]],
+T("en4","Travel & Tourism English","🗺️","English · Travel","Sightseeing & attractions · tours & excursions · transport · weather & clothing · describing places",[
+ ["Sightseeing & attractions","🏛️",[
+  [1,"What is a 'museum'?",["Museo","Mercado","Muelle","Mirador"],0],
+  [2,"What is a 'viewpoint'?",["Mirador","Opinión","Ventana","Playa"],0],
+  [2,"What is a 'souvenir'?",["Un recuerdo que se compra en un viaje","Un postre francés","Un guía turístico","Un boleto"],0],
+  [3,"What is an 'entrance fee'?",["Precio de entrada","Puerta de entrada","Salida de emergencia","Propina"],0],
+  [3,"What does 'opening hours' mean?",["Horario de atención","Horas extra","Solo la hora de cierre","Hora de llegada"],0],
+  [4,"Complete: 'The museum is closed ___ Mondays.'",["on","in","at","by"],0],
+  [5,"Which sentence recommends an attraction correctly?",["You shouldn't miss the sunset at Valle de la Luna.","You don't should miss the sunset.","You mustn't to miss the sunset.","Miss not the sunset."],0]]],
  ["Tours & excursions","🗺️",[
   [1,"What is a 'tour guide'?",["Guía de turismo","Mapa","Agencia","Hotel"],0],
   [2,"Complete: 'The tour ___ at 9 a.m. from the hotel lobby.'",["starts","start","starting","is start"],0],
   [2,"What does 'pick-up' mean in tourism?",["Recogida (pasar a buscar al pasajero)","Levantar pesas","Escoger fruta","Pagar"],0],
-  [3,"What is a 'day trip'?",["Una excursión de un día","Un viaje de un año","Un viaje nocturno","Un vuelo"],0],
+  [3,"What is a 'day trip'?",["Una excursión de un día","Un viaje de un año","Un viaje nocturno","Un crucero"],0],
   [3,"Which sentence describes the length of a tour correctly?",["The tour lasts about four hours.","The tour is four hours long ago.","The tour take four hours.","Four hours the tour."],0],
   [4,"Complete: 'Please bring comfortable shoes, sunscreen ___ a hat.'",["and","but","or","so"],0],
   [5,"What does 'The price includes lunch and entrance fees' mean?",["El precio incluye almuerzo y entradas","El precio no incluye nada","El almuerzo es extra","Las entradas son gratis para siempre"],0]]],
  ["Transport","🚌",[
-  [1,"What is a 'bus stop'?",["Paradero de bus","Terminal de trenes","Aeropuerto","Estacionamiento"],0],
+  [1,"What is a 'bus stop'?",["Paradero de bus","Terminal de trenes","Muelle","Estacionamiento"],0],
   [2,"What is the 'subway' (US) or 'underground' (UK)?",["El metro","Un túnel peatonal","El sótano","El ascensor"],0],
   [2,"What does 'one-way ticket' mean?",["Pasaje de ida","Pasaje de ida y vuelta","Pasaje gratis","Pasaje de grupo"],0],
   [3,"What does 'round-trip ticket' mean?",["Pasaje de ida y vuelta","Pasaje solo de ida","Pasaje de juguete","Pasaje en bus circular"],0],
@@ -190,7 +190,7 @@ T("en4","Travel & Tourism English","✈️","English · Travel","At the airport 
   [4,"What does 'breathtaking view' mean?",["Una vista impresionante","Una vista que asfixia","Una vista aburrida","Una vista lejana"],0],
   [5,"Complete: 'Torres del Paine is ___ than Santiago in winter.'",["colder","more cold","coldest","cold"],0]]]
 ],[
- ["Things you see at an airport ✈️",["plane","check-in counter","gate","security","duty free"],"customs, baggage claim, departures board, boarding pass, runway"],
+ ["Places to visit in a city 🏙️",["museum","park","market","beach","viewpoint"],"cathedral, square, harbour, gallery, zoo, castle"],
  ["Tourist activities 🧗",["hiking","sightseeing","swimming","skiing","shopping"],"surfing, wine tasting, kayaking, horse riding, stargazing"]]),
 
 T("en5","Polite English for Customer Service","🤝","English · Customer service","Polite requests · apologizing · numbers, dates & times · phone phrases · Spanish → English",[

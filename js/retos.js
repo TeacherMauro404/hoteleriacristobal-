@@ -30,8 +30,8 @@ timeline:{
   ["Orden de un menú clásico",["Aperitivo","Entrada","Plato de fondo","Postre","Café o bajativo"]],
   ["Preparar un pisco sour",["Medir el pisco","Agregar jugo de limón","Agregar jarabe de azúcar","Batir con hielo en la coctelera","Colar y servir en copa"]]],
  tu:[["Organizar un paquete turístico",["Identificar al cliente y sus necesidades","Diseñar el itinerario","Cotizar y costear los servicios","Reservar los servicios","Emitir vouchers y documentos"]],
-  ["Viajar en avión",["Hacer check-in","Entregar el equipaje","Pasar el control de seguridad","Ir a la puerta de embarque","Abordar el avión"]],
-  ["Llegada de un turista a Chile",["Bajar del avión","Control migratorio de la PDI","Retirar el equipaje","Control del SAG y Aduana","Transfer in al hotel"]],
+  ["Atender a un cliente en la agencia",["Saludar y detectar sus necesidades","Presentar opciones","Cotizar","Confirmar la reserva","Entregar los vouchers"]],
+  ["Llegada de un grupo al hotel",["Recibir al grupo en el lobby","Ofrecer el cóctel de bienvenida","Registrar al coordinador del grupo","Entregar las llaves","Explicar los servicios del hotel"]],
   ["Un city tour",["Recoger a los pasajeros en el hotel","Dar la bienvenida y explicar el recorrido","Visitar los atractivos","Responder preguntas","Regresar al hotel y despedirse"]],
   ["Ciudades de norte a sur",["Arica","Antofagasta","La Serena","Valparaíso","Puerto Montt","Punta Arenas"]],
   ["Organizar un evento",["Reunión con el cliente","Cotización y contrato","Planificación y montaje","Realización del evento","Desmontaje y evaluación"]]],
@@ -48,14 +48,14 @@ tf:{
   ["La Carménère es una cepa emblemática de Chile.",true],["El maître es el jefe de cocina.",false],["DND significa 'Do Not Disturb'.",true],["El pisco sour lleva ron y menta.",false],
   ["La brunoise es un corte en cubos muy pequeños.",true],["El overbooking es vender más habitaciones de las disponibles.",true],["Una habitación OOO está lista para venderse.",false],
   ["Mezclar cloro con amoníaco es seguro.",false],["La pensión completa incluye desayuno, almuerzo y cena.",true],["El sommelier se encarga de los vinos.",true],["El curanto es típico de Chiloé.",true],["La comanda es la cuenta que se entrega al cliente.",false]],
- tu:[["Sernatur es el Servicio Nacional de Turismo.",true],["El código IATA de Santiago es SCL.",true],["Un excursionista pernocta en el destino.",false],["Torres del Paine está en la región de Magallanes.",true],
-  ["El Valle de la Luna está en Puerto Varas.",false],["Un transfer in es el traslado del aeropuerto al hotel.",true],["Machu Picchu está en Bolivia.",false],["Una OTA es una agencia de viajes en línea.",true],
+ tu:[["Sernatur es el Servicio Nacional de Turismo.",true],["La CONAF administra los parques nacionales de Chile.",true],["Un excursionista pernocta en el destino.",false],["Torres del Paine está en la región de Magallanes.",true],
+  ["El Valle de la Luna está en Puerto Varas.",false],["Un transfer in es el traslado de llegada del pasajero a su hotel.",true],["Machu Picchu está en Bolivia.",false],["Una OTA es una agencia de viajes en línea.",true],
   ["Rapa Nui está en el océano Atlántico.",false],["El SAG controla el ingreso de productos animales y vegetales.",true],["Valparaíso es Patrimonio de la Humanidad.",true],["El ecoturismo busca conservar la naturaleza.",true],
-  ["Un vuelo directo tiene tres escalas.",false],["Las 4P del marketing son producto, precio, plaza y promoción.",true],["Chile tiene 7 sitios Patrimonio de la Humanidad.",true],["Pucón está junto al volcán Villarrica.",true],["La moneda de Perú es el peso.",false]],
+  ["Un full day es una excursión de medio día.",false],["Las 4P del marketing son producto, precio, plaza y promoción.",true],["Chile tiene 7 sitios Patrimonio de la Humanidad.",true],["Pucón está junto al volcán Villarrica.",true],["La moneda de Perú es el peso.",false]],
  en:[["'Pillow' means almohada.",true],["'Towel' means toalla.",true],["'Tip' means cuenta.",false],["'Lift' means ascensor.",true],["'Fork' means cuchillo.",false],
   ["'Fully booked' means completo, sin disponibilidad.",true],["'Turn left' means gira a la derecha.",false],["'Still water' is agua sin gas.",true],["A 'rare' steak is bien cocido.",false],
-  ["'Customs' means aduana.",true],["'Half past seven' is 7:30.",true],["'Boarding pass' means pasaporte.",false],["'Housekeeping' is the cleaning department.",true],
-  ["'You're welcome' means de nada.",true],["'Sheets' means sábanas.",true],["'Gate' means puerta de embarque.",true],["'Dessert' means desierto.",false]]
+  ["'Customs' means aduana.",true],["'Half past seven' is 7:30.",true],["'Museum' means mercado.",false],["'Housekeeping' is the cleaning department.",true],
+  ["'You're welcome' means de nada.",true],["'Sheets' means sábanas.",true],["'Souvenir' means recuerdo de viaje.",true],["'Dessert' means desierto.",false]]
 },
 /* ¿qué cargo soy?: [respuesta, [pista difícil, pista media, pista fácil]] */
 who:{
@@ -74,8 +74,8 @@ who:{
  tu:[["Guía de turismo",["Debo estar inscrito en Sernatur.","Uso micrófono y conozco historias del lugar.","Acompaño e informo a los turistas en un recorrido."]],
   ["Agente de viajes",["Trabajo con un GDS como Amadeus.","Emito pasajes y vouchers.","Vendo viajes y paquetes turísticos."]],
   ["Tour operador",["Negocio con hoteles y transportes.","Armo paquetes y los vendo a agencias.","Diseño y organizo programas turísticos."]],
-  ["Tripulante de cabina",["Trabajo en el aire.","Explico las normas de seguridad.","Atiendo a los pasajeros durante el vuelo."]],
-  ["Piloto",["Trabajo en la cabina de mando.","Hablo con la torre de control.","Conduzco el avión."]],
+  ["Guía de enoturismo",["Trabajo en una viña.","Explico cómo se elabora el vino.","Guío catas y recorridos por las bodegas."]],
+  ["Coordinador de grupos (tour leader)",["Viajo todo el itinerario con el grupo.","Coordino hoteles, buses y excursiones.","Acompaño y represento al grupo durante todo el viaje."]],
   ["Chofer de turismo",["Tengo licencia profesional.","Trabajo con un guía y un grupo.","Conduzco el bus o la van de los turistas."]],
   ["Organizador de eventos (event planner)",["Uso cronogramas y check lists.","Coordino montajes y proveedores.","Organizo congresos, matrimonios y fiestas."]],
   ["Informador turístico",["Trabajo en un módulo o una oficina de turismo.","Entrego mapas y folletos.","Oriento a los turistas sobre la ciudad."]],
@@ -88,7 +88,7 @@ who:{
   ["Tour guide",["I know a lot about history.","I speak to groups with a microphone.","I show tourists around the city."]],
   ["Bartender",["I use a shaker.","I work behind the bar.","I make cocktails."]],
   ["Concierge",["I know the best restaurants in town.","I book tickets and tours for guests.","I give guests information and recommendations."]],
-  ["Flight attendant",["I work on a plane.","I explain the safety instructions.","I serve drinks and snacks to passengers."]]]
+  ["Lifeguard",["I work at the swimming pool.","I wear a whistle.","I keep guests safe in the water."]]]
 },
 /* ¡Atiende al huésped!: por tema (id del banco) y genéricas */
 speak:{
@@ -114,9 +114,9 @@ speak:{
  en5:["Say 5 polite phrases you would use with a guest.","Role-play in English: answer the phone and take a message."]
 },
 mime:["hacer una cama","descorchar un vino","cargar maletas como botones","servir una sopa","preparar un cóctel con coctelera","hacer un check-in","aspirar una alfombra","doblar una servilleta",
-  "recibir a un huésped con una reverencia","tomar una comanda","un huésped con jet lag","un guía con un grupo de turistas","un turista sacándose selfies","un piloto despegando","un chef probando la sazón",
+  "recibir a un huésped con una reverencia","tomar una comanda","un huésped con mucho sueño","un guía con un grupo de turistas","un turista sacándose selfies","un turista cargando una mochila enorme","un chef probando la sazón",
   "un huésped que quedó afuera de su habitación","un sommelier catando vino","limpiar ventanas","un salvavidas en la piscina","un turista perdido con un mapa"],
-draw:["llave magnética","campana de recepción","carro de housekeeping","copa de vino","coctelera","maleta","avión","pasaporte","cama king","cisne de toalla","moai","Torres del Paine",
+draw:["llave magnética","campana de recepción","carro de housekeeping","copa de vino","coctelera","maleta","bus de turismo","pasaporte","cama king","cisne de toalla","moai","Torres del Paine",
   "bandeja de room service","sacacorchos","mapa","palmera","gorro de chef","ascensor","piscina","cartel de no molestar"],
 mystery:[["💰","¡Propina generosa! +300 puntos","add",300],["😤","¡Huésped molesto! −100 puntos","add",-100],["⭐","¡Reseña de 5 estrellas! Todos los equipos ganan +100","all",100],
   ["🕵️","¡Inspección sorpresa! Quita 200 puntos al equipo que va primero","steal",200],["🛎️","¡Upgrade a suite! Tu próximo acierto vale el doble","double",0],["🧳","Caja fuerte vacía… pasa el turno","none",0],

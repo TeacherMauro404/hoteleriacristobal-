@@ -36,14 +36,14 @@ window.HGLOS = [
   [3,"¿Qué incluye la pensión completa (FB, Full Board)?",["Alojamiento, desayuno, almuerzo y cena","Solo alojamiento","Desayuno y cena","Bebidas ilimitadas"],0],
   [4,"¿Qué incluye el todo incluido (AI, All Inclusive)?",["Alojamiento, todas las comidas, bebidas y las actividades definidas","Solo la habitación","Desayuno y spa","Solo bebidas"],0],
   [5,"¿Qué es el plan CP (Continental Plan)?",["Alojamiento con desayuno continental","Pensión completa","Media pensión","Todo incluido"],0]]},
-{ id:"gl_tur", name:"Términos de turismo", icon:"✈️", q:[
-  [1,"¿Qué es un transfer in?",["El traslado desde el aeropuerto o terminal hasta el hotel","El traslado del hotel al aeropuerto","Un tour de un día","Un vuelo interno"],0],
-  [2,"¿Qué es un transfer out?",["El traslado del hotel al aeropuerto o terminal de salida","El traslado de llegada","Una excursión","Un cambio de hotel"],0],
+{ id:"gl_tur", name:"Términos de turismo", icon:"🧭", q:[
+  [1,"¿Qué es un transfer in?",["El traslado de llegada del pasajero hasta su hotel","El traslado de salida desde el hotel","Un tour de un día","Un cambio de habitación"],0],
+  [2,"¿Qué es un transfer out?",["El traslado de salida del pasajero desde su hotel","El traslado de llegada","Una excursión","Un cambio de hotel"],0],
   [2,"¿Qué es el turismo 'inbound'?",["El turismo receptivo: visitantes que llegan al país","El turismo emisivo","El turismo interno","El turismo espacial"],0],
   [3,"¿Qué es el turismo 'outbound'?",["El turismo emisivo: residentes que viajan al extranjero","El turismo receptivo","El turismo rural","El turismo urbano"],0],
-  [3,"¿Qué es un 'stopover'?",["Una escala de más de 24 horas que permite conocer la ciudad intermedia","Un vuelo directo","Un hotel de aeropuerto","Un retraso"],0],
-  [4,"¿Qué es un 'layover'?",["Una espera corta entre vuelos en un aeropuerto de conexión","Un vuelo nocturno","Un pasaje gratis","Un traslado"],0],
-  [5,"¿Qué es el check-in online de una aerolínea?",["Registrarse para el vuelo por internet antes de llegar al aeropuerto","Reservar un hotel por internet","Pagar con tarjeta","Ver una película en el vuelo"],0]]},
+  [3,"¿Qué es un 'city tour'?",["Un recorrido guiado por los principales atractivos de una ciudad","Un hotel urbano","Un bus de transporte público","Una agencia de viajes"],0],
+  [4,"¿Qué es un 'full day'?",["Una excursión que dura todo el día","Un turno de trabajo completo","Una tarifa diaria","Un buffet libre"],0],
+  [5,"¿Qué es un 'fam tour'?",["Un viaje de familiarización para que agentes o prensa conozcan un destino","Un viaje familiar barato","Un tour de famosos","Un paseo obligatorio"],0]]},
 { id:"gl_car", name:"Cargos y oficios", icon:"🧑‍💼", q:[
   [1,"¿Quién recibe a los huéspedes y hace el check-in?",["El recepcionista","El sommelier","La mucama","El chef"],0],
   [2,"¿Quién es la gobernanta?",["La jefa del área de pisos (housekeeping)","La jefa de cocina","La gerenta de ventas","La guía turística"],0],
@@ -54,6 +54,6 @@ window.HGLOS = [
   [5,"¿Qué hace el área de 'guest relations'?",["Atiende de forma personalizada a los huéspedes, en especial a los VIP, y cuida su satisfacción","Repara las habitaciones","Cocina","Hace la auditoría nocturna"],0]]}
 ];
 window.HGLOS_T5 = [
- ["Siglas que debe saber un hotelero 🔤",["DND","VIP","PMS","OTA","ADR"],"RevPAR, GDS, OOO, F&B, MICE, ETA, BB, AI"],
+ ["Siglas que debe saber un hotelero 🔤",["DND","VIP","PMS","OTA","ADR"],"RevPAR, GDS, OOO, F&B, MICE, RO, BB, AI"],
  ["Cargos de un hotel 🧑‍💼",["recepcionista","botones","mucama","garzón","gerente"],"conserje, sommelier, chef, gobernanta, bartender, maître"]
 ];
