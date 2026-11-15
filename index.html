@@ -330,7 +330,7 @@ body.playing .foot{display:none}
 <body>
 <header>
   <div class="wrap" style="padding:0">
-    <div class="hb">🛎️ Hotelería · ✈️ Turismo · 🇬🇧 English for Hospitality</div>
+    <div class="hb">🛎️ Hotelería · 🧭 Turismo · 🇬🇧 English for Hospitality</div>
     <div class="stars5">★ ★ ★ ★ ★</div><h1>Grand Hotel <span>Games</span></h1><div class="orn">— Hotelería &amp; Turismo —</div>
     <p>Juegos en equipo para estudiantes de Hotelería y Turismo, con categorías inspiradas en las mallas de ENAC, CFT Santo Tomás, Duoc UC, INACAP y UNAB: recepción, housekeeping, alimentos y bebidas, eventos, agencias de viajes, guiado, gestión hotelera, inglés para la atención y mucho más. ¡Bienvenidos a bordo!</p>
   </div>
@@ -386,14 +386,14 @@ body.playing .foot{display:none}
 <div class="mo" id="mo"><div class="mbox" id="mbox"></div></div>
 <div class="win" id="win"></div>
 
-<script src="js/glosario.js?v=1"></script>
-<script src="js/hoteleria.js?v=1"></script>
-<script src="js/turismo.js?v=1"></script>
-<script src="js/english.js?v=1"></script>
-<script src="js/retos.js?v=1"></script>
+<script src="js/glosario.js?v=2"></script>
+<script src="js/hoteleria.js?v=2"></script>
+<script src="js/turismo.js?v=2"></script>
+<script src="js/english.js?v=2"></script>
+<script src="js/retos.js?v=2"></script>
 <script>
 /* ================= ESTADO ================= */
-var EMOJIS=['🛎️','🗝️','🧳','🏨','✈️','🍷','🍽️','🛏️','🌴','🗺️','🚢','🍸','🏖️','⛰️','🧭','🎫'];
+var EMOJIS=['🛎️','🗝️','🧳','🏨','🚌','🍷','🍽️','🛏️','🌴','🗺️','🚢','🍸','🏖️','⛰️','🧭','🎫'];
 var COLORS=['#1d4e89','#c2410c','#0f766e','#b7791f','#6d4c8f','#2b6cb0'];
 var NAMES=['Front Desk','Room Service','Los Conserjes','Los Sommeliers','Check-In Crew','Housekeeping Heroes','Los Botones','Suite Presidencial','Los Anfitriones','Concierge Club','Los Trotamundos','Los Guías'];
 var GAMES=[
@@ -405,8 +405,8 @@ var GAMES=[
   h:'Los equipos juegan por turnos su propia escalera. Respuesta correcta: suben un peldaño. Error: vuelven al último peldaño seguro (5). Cada equipo tiene 3 comodines por juego.'},
  {id:'wheel',e:'🎡',n:'Ruleta de la suerte',d:'Gira la ruleta: te puede tocar una categoría, puntos dobles, un bono o perder el turno.',
   h:'El equipo en turno gira la ruleta y responde una pregunta de la categoría que salga. Si falla, otro equipo puede robar la mitad de los puntos.'},
- {id:'race',e:'✈️',n:'Vuelta al mundo',d:'Carrera de aviones: el primer equipo que responde bien avanza. ¡Gana quien llega primero a destino!',
-  h:'Todos los equipos responden a la vez (levantando la mano o con un timbre). El profesor marca al primer equipo con la respuesta correcta y su avión avanza.'},
+ {id:'race',e:'🚌',n:'Ruta al hotel',d:'Carrera de buses de turismo: el primer equipo que responde bien avanza. ¡Gana quien llega primero al hotel!',
+  h:'Todos los equipos responden a la vez (levantando la mano o con un timbre). El profesor marca al primer equipo con la respuesta correcta y su bus avanza.'},
  {id:'flash',e:'⚡',n:'Relámpago',d:'Cada equipo tiene 60 segundos para responder todas las preguntas que pueda. ¡Contra el reloj!',
   h:'Por turnos, cada equipo responde la mayor cantidad de preguntas posible en el tiempo elegido, haciendo clic en la alternativa. Cada acierto vale entre 100 y 300 puntos según la dificultad, y 3 aciertos seguidos activan la racha 🔥 (+50%).'},
  {id:'bomb',e:'💣',n:'Bomba Party',d:'¡Estilo fiesta! Monedas por rapidez, eventos sorpresa, ítems, robos y estrellas extra al final. Que no te explote en las manos.',
@@ -418,7 +418,7 @@ var BANKS={general:{n:'📖 Conceptos y siglas',name:'Conceptos y siglas',icon:'
 var GORDER=[];(window.HOTEL||[]).concat(window.TURISMO||[],window.ENGLISH||[]).forEach(function(t){
   BANKS[t.id]={n:t.icon+' '+t.name,name:t.name,icon:t.icon,tag:t.tag,desc:t.desc,cats:t.cats,top5:t.top5||null,group:t.group};GORDER.push(t.id);});
 var ORDER={ho:[],tu:[],en:[]};GORDER.forEach(function(k){ORDER[BANKS[k].group].push(k);});
-var TABS=[['ho','🛎️ Hotelería',ORDER.ho.length+' temas'],['tu','✈️ Turismo',ORDER.tu.length+' temas'],['en','🇬🇧 English for Hospitality',ORDER.en.length+' topics'],['general','📖 Conceptos y siglas','Glosario']];
+var TABS=[['ho','🛎️ Hotelería',ORDER.ho.length+' temas'],['tu','🧭 Turismo',ORDER.tu.length+' temas'],['en','🇬🇧 English for Hospitality',ORDER.en.length+' topics'],['general','📖 Conceptos y siglas','Glosario']];
 function tabName(t){var x=TABS.filter(function(y){return y[0]===t;})[0];return x?x[1]:'';}
 function tabOf(k){if(k==='__mix')return S.lastTab||'ho';var g=(BANKS[k]||{}).group;return ORDER[g]?g:'general';}
 function BK(){return BANKS[S.bank]||BANKS.general;}
@@ -536,7 +536,7 @@ function turnMenu(e){e.stopPropagation();var m=$('tmenu');if(m){m.remove();retur
   var r=e.currentTarget.getBoundingClientRect();m.style.top=(r.bottom+6)+'px';m.style.left=Math.max(8,Math.min(window.innerWidth-250,r.left))+'px';document.body.appendChild(m);}
 document.addEventListener('click',function(e){var m=$('tmenu');if(m&&!m.contains(e.target))m.remove();});
 function turnsNote(){var n=S.turns||0;if(!n)return 'Sin límite: el juego termina cuando tú presionas 🏆 Terminar (o cuando alguien llega a la meta).';
-  var g=S.game;return g==='race'?'Vuelta al mundo: se harán '+n+' preguntas en total; gana quien llegue más lejos.':g==='flash'?'Relámpago: cada equipo juega '+n+' vez/veces contra el reloj.':g==='bomb'?'Bomba Party: se jugarán '+n+' rondas.':
+  var g=S.game;return g==='race'?'Ruta al hotel: se harán '+n+' preguntas en total; gana quien llegue más lejos.':g==='flash'?'Relámpago: cada equipo juega '+n+' vez/veces contra el reloj.':g==='bomb'?'Bomba Party: se jugarán '+n+' rondas.':
     'Cada equipo juega '+n+' turno(s) ('+n*S.teams.length+' en total) y luego se muestran los ganadores automáticamente.';}
 function tcText(){var n=S.turns||0;if(!n||!document.body.classList.contains('playing'))return '';var T=S.teams.length;
   if(S.game==='race')return '🎤 Pregunta '+Math.min(n,(RACE.qn||0))+' / '+n;if(S.game==='flash')return '🔁 Vuelta '+(FL.round||1)+' / '+n;if(S.game==='bomb')return '';
@@ -697,11 +697,11 @@ var WH={segs:[],rot:0,mult:1,
 var RACE={len:8,
   init:function(){this.qn=0;S.teams.forEach(function(t){t.pos=0;});this.render();},
   render:function(){var self=this;var h='<div class="race">'+S.teams.map(function(t,i){var p=(t.pos||0)/self.len*92+4;
-      return '<div class="lane"><div class="ln" style="color:'+COLORS[i]+'">'+t.emoji+' '+esc(t.name)+'</div><div class="track"><div class="wave"></div><div class="boat" style="left:'+p+'%">✈️</div></div><div class="goal">🏝️</div></div>';}).join('')+
+      return '<div class="lane"><div class="ln" style="color:'+COLORS[i]+'">'+t.emoji+' '+esc(t.name)+'</div><div class="track"><div class="wave"></div><div class="boat" style="left:'+p+'%">🚌</div></div><div class="goal">🏨</div></div>';}).join('')+
     '</div><div class="row"><span style="opacity:.8">Meta:</span>'+[6,8,10,12].map(function(n){return '<button class="chip'+(self.len===n?' on':'')+'" onclick="RACE.len='+n+';RACE.render()">'+n+' casillas</button>';}).join('')+
     '</div><button class="btn big" onclick="RACE.ask()">'+(S.turns&&(this.qn||0)>=S.turns?'🏁 Ver resultado final':'🎤 Siguiente pregunta')+'</button>';$('stage').innerHTML=h;renderScore();},
-  ask:function(){if(S.turns&&(this.qn||0)>=S.turns){endTurns();return;}this.qn=(this.qn||0)+1;renderTC();if(S.turns&&this.qn===S.turns)toast('🔔 ¡Última pregunta!');var q=anyQ();askQ(q,{mode:'teacher',label:'¡El primero que responda bien!',awardHtml:function(){return '<div style="width:100%;text-align:center;font-weight:700;opacity:.85">¿Qué equipo respondió primero y bien?</div>'+teamBtns('RACE.move','✈️')+'<button style="background:#7a2a2a" onclick="buzzFail()">❌ Falló el que pulsó</button><button style="background:#555" onclick="closeQ()">😶 Nadie</button><div style="width:100%;text-align:center;font-size:12px;color:#5b6b7c">⌨️ Teclas 1–'+S.teams.length+' para pulsar</div>';}});},
-  move:function(i){logR(i,true,0);var t=S.teams[i];t.streak=(t.streak||0)+1;floatPts(i,'✈️ +1');t.pos=Math.min(this.len,(t.pos||0)+1);sOk();closeQ();this.render();
+  ask:function(){if(S.turns&&(this.qn||0)>=S.turns){endTurns();return;}this.qn=(this.qn||0)+1;renderTC();if(S.turns&&this.qn===S.turns)toast('🔔 ¡Última pregunta!');var q=anyQ();askQ(q,{mode:'teacher',label:'¡El primero que responda bien!',awardHtml:function(){return '<div style="width:100%;text-align:center;font-weight:700;opacity:.85">¿Qué equipo respondió primero y bien?</div>'+teamBtns('RACE.move','🚌')+'<button style="background:#7a2a2a" onclick="buzzFail()">❌ Falló el que pulsó</button><button style="background:#555" onclick="closeQ()">😶 Nadie</button><div style="width:100%;text-align:center;font-size:12px;color:#5b6b7c">⌨️ Teclas 1–'+S.teams.length+' para pulsar</div>';}});},
+  move:function(i){logR(i,true,0);var t=S.teams[i];t.streak=(t.streak||0)+1;floatPts(i,'🚌 +1');t.pos=Math.min(this.len,(t.pos||0)+1);sOk();closeQ();this.render();
     if(t.pos>=this.len){confetti();setTimeout(finish,900);}}
 };
 

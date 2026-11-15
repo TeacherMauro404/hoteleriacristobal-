@@ -11,7 +11,7 @@ window.TURISMO=[
 T("tu1","Industria turística","🌎","Turismo · Estructura del mercado","Conceptos básicos · tipos de turismo · organismos · turismo en Chile · turismo sostenible",[
  ["Conceptos básicos","📘",[
   [1,"Según la ONU Turismo, ¿qué es el turismo?",["Las actividades de personas que viajan fuera de su entorno habitual por menos de un año, por ocio, negocios u otros motivos","Solo las vacaciones en la playa","Irse a vivir a otro país","Trabajar en un hotel"],0],
-  [2,"¿Qué es un turista?",["Un visitante que pernocta al menos una noche en el destino","Una persona que vive en el destino","Un trabajador del aeropuerto","Un visitante que no duerme en el destino"],0],
+  [2,"¿Qué es un turista?",["Un visitante que pernocta al menos una noche en el destino","Una persona que vive en el destino","Un trabajador del hotel","Un visitante que no duerme en el destino"],0],
   [2,"¿Qué es un excursionista (visitante del día)?",["Un visitante que no pernocta en el destino","Un turista que se queda un mes","Un guía de turismo","Un piloto"],0],
   [3,"¿Qué es el turismo receptivo?",["El de visitantes extranjeros que llegan al país","El de chilenos que viajan al extranjero","El de personas que no viajan","El que solo ocurre en invierno"],0],
   [3,"¿Qué es el turismo emisivo?",["El de residentes que viajan al extranjero","El de extranjeros que llegan","El turismo dentro de una ciudad","El turismo espacial"],0],
@@ -20,16 +20,16 @@ T("tu1","Industria turística","🌎","Turismo · Estructura del mercado","Conce
  ["Tipos de turismo","🧗",[
   [1,"¿Qué es el ecoturismo?",["Turismo en la naturaleza que busca conservarla y educar","Turismo de compras","Turismo en grandes ciudades","Turismo de casinos"],0],
   [2,"¿Qué es el turismo aventura?",["Actividades con cierto riesgo físico, como rafting, trekking o escalada","Visitar museos","Ir de compras","Descansar en un spa"],0],
-  [2,"¿Qué es el agroturismo?",["Visitas a predios agrícolas para conocer y participar en sus labores","Turismo en aeropuertos","Turismo de playa","Turismo médico"],0],
+  [2,"¿Qué es el agroturismo?",["Visitas a predios agrícolas para conocer y participar en sus labores","Turismo en centros comerciales","Turismo de playa","Turismo médico"],0],
   [3,"¿Qué es el enoturismo?",["Turismo relacionado con el vino: viñas, catas y bodegas","Turismo de nieve","Turismo religioso","Turismo espacial"],0],
   [3,"¿Qué es el astroturismo, muy desarrollado en el norte de Chile?",["Turismo de observación astronómica en cielos limpios","Turismo de astronautas","Turismo de playa","Turismo en submarinos"],0],
   [4,"¿Qué es el turismo indígena?",["Experiencias turísticas gestionadas por comunidades de pueblos originarios, que muestran su cultura","Turismo de compras","Turismo de cruceros","Turismo deportivo"],0],
   [5,"¿Qué es el turismo de intereses especiales?",["Viajes motivados por un interés específico: aves, astronomía, vino, pesca, etc.","Turismo solo para VIP","Turismo de lujo obligatorio","Un tipo de hotel"],0]]],
  ["Organismos del turismo","🏛️",[
   [1,"¿Qué organismo público promueve el turismo en Chile?",["Sernatur (Servicio Nacional de Turismo)","El SERNAC","El SAG","El SII"],0],
-  [2,"¿Qué es la ONU Turismo (antes OMT)?",["El organismo de Naciones Unidas especializado en turismo","Una aerolínea","Una cadena hotelera","Un banco"],0],
+  [2,"¿Qué es la ONU Turismo (antes OMT)?",["El organismo de Naciones Unidas especializado en turismo","Una agencia de viajes","Una cadena hotelera","Un banco"],0],
   [3,"¿De qué ministerio depende la Subsecretaría de Turismo de Chile?",["Del Ministerio de Economía, Fomento y Turismo","Del Ministerio de Salud","Del Ministerio de Defensa","Del Ministerio de Deportes"],0],
-  [3,"¿Qué es la IATA?",["La Asociación Internacional de Transporte Aéreo","Una agencia de turismo chilena","Un tipo de pasaje","Un hotel"],0],
+  [3,"¿Qué hace la CONAF en relación con el turismo?",["Administra los parques nacionales y reservas de Chile","Otorga visas","Clasifica restaurantes","Cobra el IVA"],0],
   [4,"¿Qué organismo chileno controla el ingreso de productos de origen animal y vegetal?",["El SAG","Sernatur","El SII","El Registro Civil"],0],
   [5,"¿Qué institución controla la entrada y salida de personas en las fronteras de Chile?",["La PDI (Policía de Investigaciones)","Sernatur","El SAG","El Registro Civil"],0]]],
  ["Turismo en Chile","🇨🇱",[
@@ -42,65 +42,64 @@ T("tu1","Industria turística","🌎","Turismo · Estructura del mercado","Conce
   [5,"¿Qué ciudad junto al volcán Villarrica es un gran centro de turismo aventura?",["Pucón","Iquique","Rancagua","Calama"],0]]],
  ["Turismo sostenible","🌱",[
   [1,"¿Qué busca el turismo sostenible?",["Equilibrar beneficios económicos, cuidado ambiental y bienestar de las comunidades","Recibir la mayor cantidad posible de turistas","Construir hoteles en todos lados","Prohibir el turismo"],0],
-  [2,"¿Qué es la capacidad de carga de un destino?",["El número máximo de visitantes que soporta sin deteriorarse","El peso de equipaje permitido","La cantidad de buses","El precio de la entrada"],0],
+  [2,"¿Qué es la capacidad de carga de un destino?",["El número máximo de visitantes que soporta sin deteriorarse","El número de camas de un hotel","La cantidad de buses","El precio de la entrada"],0],
   [3,"¿Qué pide el principio 'no dejar rastro' en la naturaleza?",["Llevarse la basura, respetar la flora y fauna y no hacer fuego donde no se permite","Pintar las rocas","Recoger plantas de recuerdo","Alimentar a los animales"],0],
-  [3,"¿Qué es el sobreturismo?",["Un exceso de turistas que afecta la vida local y el ambiente","El turismo de lujo","El turismo en avión","El turismo de invierno"],0],
+  [3,"¿Qué es el sobreturismo?",["Un exceso de turistas que afecta la vida local y el ambiente","El turismo de lujo","El turismo de negocios","El turismo de invierno"],0],
   [4,"¿Qué documento de la ONU Turismo orienta un turismo responsable?",["El Código Ético Mundial para el Turismo","El Tratado de Versalles","La Carta Magna","El Código Civil"],0],
   [5,"¿Qué es el turismo comunitario?",["Turismo organizado y gestionado por comunidades locales, que reciben sus beneficios","El turismo de grandes cadenas","El turismo en cruceros","El turismo virtual"],0]]]
 ],[
  ["Destinos turísticos de Chile 🇨🇱",["Torres del Paine","San Pedro de Atacama","Rapa Nui","Valparaíso","Chiloé"],"Pucón, Puerto Varas, La Serena, Valle del Elqui, Carretera Austral, Viña del Mar"],
  ["Tipos de turismo 🧗",["ecoturismo","turismo aventura","turismo cultural","turismo de playa","turismo de negocios"],"enoturismo, astroturismo, agroturismo, turismo religioso, turismo gastronómico"]]),
 
-T("tu2","Agencias de viajes y tour operador","✈️","Turismo · Agencias y transporte","Agencias y operadores · transporte aéreo · códigos y siglas · paquetes y programación · documentación de viaje",[
+T("tu2","Agencias de viajes y tour operador","🧳","Turismo · Agencias de viajes","Agencias y operadores · excursiones y servicios en destino · ventas y cotizaciones · paquetes y programación · documentación de viaje",[
  ["Agencias y operadores","🏢",[
   [1,"¿Qué hace una agencia de viajes?",["Asesora, vende y reserva viajes y servicios turísticos","Construye hoteles","Fabrica aviones","Cocina para turistas"],0],
-  [2,"¿Qué es un tour operador?",["Una empresa que diseña y organiza paquetes y servicios turísticos","Un piloto de avión","Un recepcionista","Un taxista"],0],
+  [2,"¿Qué es un tour operador?",["Una empresa que diseña y organiza paquetes y servicios turísticos","Un chef","Un recepcionista","Un taxista"],0],
   [2,"¿Qué diferencia a una agencia mayorista de una minorista?",["La mayorista crea paquetes y los vende a otras agencias; la minorista vende al público","No hay diferencia","La minorista siempre es más grande","La mayorista solo vende pasajes de bus"],0],
   [3,"¿Qué es una agencia receptiva?",["La que atiende en el destino a los turistas que llegan (traslados, tours)","La que solo vende viajes al extranjero","Una agencia de empleos","Una agencia de publicidad"],0],
   [4,"¿Qué es la comisión de una agencia?",["El porcentaje que recibe por cada servicio que vende","Un impuesto al pasajero","Una multa","Un reembolso"],0],
   [5,"¿Qué es un 'fam tour' (viaje de familiarización)?",["Un viaje para que agentes o prensa conozcan un destino o producto","Un viaje familiar barato","Un tour de famosos","Un paseo obligatorio"],0]]],
- ["Transporte aéreo","🛫",[
-  [1,"¿Qué es un vuelo directo?",["Un vuelo que llega al destino sin cambiar de avión","Un vuelo con tres escalas","Un vuelo cancelado","Un vuelo privado"],0],
-  [2,"¿Qué es una escala?",["Una parada intermedia del vuelo antes del destino final","El precio del pasaje","El asiento","El equipaje"],0],
-  [2,"¿Qué es el equipaje de mano?",["El bolso o maleta pequeña que el pasajero lleva en la cabina","La maleta que va en la bodega","Una mochila prohibida","La carga comercial"],0],
-  [3,"¿Qué es la tarjeta de embarque (boarding pass)?",["El documento que permite subir al avión e indica asiento y puerta","El pasaporte","El seguro de viaje","La factura"],0],
-  [3,"¿Qué son las clases de servicio en un avión?",["Económica, ejecutiva (business) y primera","Cursos de vuelo","Turnos de la tripulación","Tipos de aeropuerto"],0],
-  [4,"¿Qué es una conexión?",["Un cambio de avión en un aeropuerto intermedio para continuar el viaje","El wifi del avión","El cinturón de seguridad","La puerta de embarque"],0],
-  [5,"¿Qué es el overbooking en una aerolínea?",["Vender más pasajes que asientos, contando con que algunos pasajeros no se presenten","Un pasaje gratis","El exceso de equipaje","Un vuelo lleno de VIP"],0]]],
- ["Códigos y siglas de viaje","🔤",[
-  [1,"¿Qué código IATA tiene el aeropuerto de Santiago de Chile?",["SCL","SAN","STG","CHL"],0],
-  [2,"¿Qué código IATA corresponde a Isla de Pascua (Mataveri)?",["IPC","IDP","RAP","PAS"],0],
-  [2,"¿Qué es un PNR?",["El registro de una reserva en el sistema (Passenger Name Record)","Un tipo de avión","Un pasaporte nuevo","Un precio especial"],0],
-  [3,"¿Qué es un GDS?",["Un sistema global de distribución de reservas, como Amadeus o Sabre","Un GPS de avión","Un tipo de hotel","Una aerolínea"],0],
-  [3,"En un itinerario, ¿qué significa ETA?",["Hora estimada de llegada","Hora estimada de salida","Equipaje total autorizado","Embarque terminado"],0],
-  [4,"¿Qué significa ETD?",["Hora estimada de salida (Estimated Time of Departure)","Equipaje total declarado","Embarque tardío","Escala técnica de destino"],0],
-  [4,"¿Qué código IATA corresponde a Punta Arenas?",["PUQ","PNT","PAR","PTA"],0],
-  [5,"¿Qué es un código compartido (codeshare)?",["Un acuerdo en que dos aerolíneas venden el mismo vuelo con sus propios códigos","La contraseña del wifi","Un asiento doble","Un descuento familiar"],0]]],
+ ["Excursiones y servicios en destino","🚌",[
+  [1,"¿Qué es una excursión?",["Una salida turística corta a un atractivo, con regreso el mismo día o en pocos días","Un cambio de hotel","Una reserva cancelada","Un tipo de habitación"],0],
+  [2,"¿Qué es un 'full day'?",["Una excursión que dura todo el día","Un turno de trabajo completo","Una tarifa diaria de hotel","Un buffet libre"],0],
+  [2,"¿Qué es un 'half day'?",["Una excursión de medio día","La media pensión","Una tarifa reducida","Un late check-out"],0],
+  [3,"¿Qué servicios suele incluir una excursión organizada?",["Transporte, guía y entradas; a veces alimentación","Solo el alojamiento","Solo el seguro","Nada, se paga todo aparte"],0],
+  [3,"¿Qué es un servicio 'regular' o compartido?",["Una excursión en que se juntan pasajeros de distintos hoteles o agencias","Un servicio privado exclusivo","Un servicio de lavandería","Un taxi"],0],
+  [4,"¿Qué es un servicio privado en turismo?",["Un tour o traslado exclusivo para un pasajero o grupo, sin compartir con otros","Un tour gratis","Un tour sin guía","Un tour nocturno"],0],
+  [5,"¿Qué debe confirmar la agencia el día anterior a una excursión?",["Hora y lugar de recogida, número de pasajeros y servicios incluidos","El color del bus","El menú del hotel","El clima de otro país"],0]]],
+ ["Ventas y cotizaciones","💵",[
+  [1,"¿Qué es una cotización?",["Un documento con el detalle y el precio de los servicios que pide un cliente","Una reserva pagada","Un reclamo","Un folleto"],0],
+  [2,"¿Qué es un voucher en turismo?",["Un documento que acredita los servicios pagados y que el pasajero presenta al prestador","Un descuento","Una propina","Un mapa"],0],
+  [2,"¿Qué es un anticipo o abono?",["Un pago parcial para confirmar una reserva","El pago final","Una devolución","Una multa"],0],
+  [3,"¿Qué es la tarifa neta?",["El precio que el proveedor cobra a la agencia, sin comisión","El precio con IVA incluido","El precio rack","La propina sugerida"],0],
+  [3,"¿Qué es el margen de ganancia de una agencia?",["La diferencia entre el precio de venta y el costo de los servicios","El total de ventas","El sueldo del agente","Un impuesto"],0],
+  [4,"¿Qué es un programa 'a la medida'?",["Un viaje diseñado según los intereses y presupuesto de un cliente específico","Un paquete fijo para todos","Un viaje de último minuto","Un viaje sin itinerario"],0],
+  [5,"¿Qué debe indicar una cotización para evitar reclamos?",["Qué incluye, qué no incluye, condiciones de pago y de cancelación","Solo el precio total","Solo el nombre del cliente","Nada más que el destino"],0]]],
  ["Paquetes y programación","🧳",[
   [1,"¿Qué es un paquete turístico?",["Un conjunto de servicios (transporte, alojamiento, tours) vendido a un precio único","Una maleta","Un seguro","Un regalo"],0],
-  [2,"¿Qué es un itinerario?",["La descripción día a día de las actividades y servicios de un viaje","El precio total","El pasaporte","El mapa del aeropuerto"],0],
-  [2,"¿Qué es un transfer?",["El traslado del pasajero entre aeropuerto, hotel u otros puntos","Una transferencia bancaria","Un cambio de habitación","Un tour a pie"],0],
-  [3,"¿Qué es un city tour?",["Un recorrido guiado por los principales atractivos de una ciudad","Un vuelo","Una caminata en la montaña","Una cena"],0],
+  [2,"¿Qué es un itinerario?",["La descripción día a día de las actividades y servicios de un viaje","El precio total","El pasaporte","El mapa de la ciudad"],0],
+  [2,"¿Qué es un transfer?",["El traslado del pasajero entre un terminal, el hotel u otros puntos","Una transferencia bancaria","Un cambio de habitación","Un tour a pie"],0],
+  [3,"¿Qué es un city tour?",["Un recorrido guiado por los principales atractivos de una ciudad","Un crucero","Una caminata en la montaña","Una cena"],0],
   [3,"¿Qué es un viaje FIT?",["Un viaje individual organizado a la medida","Un viaje de gimnasio","Un viaje grupal masivo","Un viaje obligatorio"],0],
   [4,"¿Qué incluye normalmente un 'todo incluido'?",["Alojamiento, todas las comidas, bebidas y muchas actividades","Solo la habitación","Solo el desayuno","Solo el pasaje"],0],
   [5,"¿Qué es el costeo de un programa turístico?",["El cálculo de todos los costos para fijar el precio de venta","Un viaje por la costa","La propina del guía","El seguro"],0]]],
  ["Documentación de viaje","🛂",[
   [1,"¿Qué documento se necesita para viajar fuera de Sudamérica?",["Pasaporte vigente","Solo la licencia de conducir","El certificado de notas","Ninguno"],0],
   [2,"¿Qué es una visa?",["Un permiso que otorga un país para ingresar a su territorio","Una tarjeta de crédito","Un pasaje","Un seguro"],0],
-  [3,"¿Qué es un seguro de viaje?",["Una cobertura de gastos médicos, equipaje y otros imprevistos durante el viaje","Un pasaje de vuelta","Una visa","Un tipo de hotel"],0],
+  [3,"¿Qué es un seguro de viaje?",["Una cobertura de gastos médicos, pérdida de maletas y otros imprevistos durante el viaje","Un pasaje de vuelta","Una visa","Un tipo de hotel"],0],
   [3,"¿Qué deben declarar los viajeros al SAG al entrar a Chile?",["Productos de origen animal o vegetal, como frutas, carnes o semillas","Su ropa","Sus libros","Sus celulares"],0],
   [4,"¿Qué necesita un menor chileno para salir del país sin uno de sus padres?",["Una autorización notarial del padre o madre que no viaja","Nada","Solo una foto","Un certificado escolar"],0],
   [5,"¿Qué es la tarjeta de turismo que entrega la PDI?",["El documento que recibe el extranjero al ingresar a Chile y debe presentar al salir","Una tarjeta de crédito","Una tarjeta de descuentos","Un mapa turístico"],0]]]
 ],[
- ["Aerolíneas que vuelan en Chile ✈️",["LATAM","Sky Airline","JetSMART","Aerolíneas Argentinas","American Airlines"],"Iberia, Air France, Delta, Copa, Avianca, Qantas"],
- ["Servicios que vende una agencia de viajes 🧳",["pasajes aéreos","hoteles","paquetes turísticos","tours","seguros de viaje"],"traslados, cruceros, arriendo de autos, entradas, asesoría de visas"]]),
+ ["Excursiones que vende una agencia en Chile 🚌",["city tour por Santiago","Valparaíso y Viña del Mar","viñas del Maipo o Colchagua","Valle de la Luna","Torres del Paine"],"Cajón del Maipo, Isla Negra, géiseres del Tatio, Valle del Elqui, Chiloé"],
+ ["Servicios que vende una agencia de viajes 🧳",["hoteles","paquetes turísticos","excursiones","traslados","seguros de viaje"],"cruceros, arriendo de autos, entradas, asesoría de visas, eventos"]]),
 
 T("tu3","Guiado y destinos de Chile","🗺️","Turismo · Guiado","Técnicas de guiado · norte · centro y Santiago · sur y Patagonia · patrimonio y cultura",[
  ["Técnicas de guiado","🎙️",[
   [1,"¿Qué hace un guía de turismo?",["Acompaña, orienta e informa a los turistas sobre el destino","Cocina para los turistas","Conduce aviones","Limpia los hoteles"],0],
   [2,"¿Qué debe hacer el guía al inicio de un tour?",["Presentarse, dar la bienvenida, explicar el itinerario y las normas de seguridad","Empezar a caminar sin hablar","Cobrar propinas","Desaparecer"],0],
   [2,"¿Dónde debe ubicarse el guía al hablarle a su grupo?",["Donde todos lo vean y lo escuchen, sin dar la espalda al grupo","Detrás del grupo","Dentro del bus con la puerta cerrada","Lejos del grupo"],0],
-  [3,"¿Dónde deben inscribirse los guías de turismo en Chile?",["En el Registro Nacional de Prestadores de Servicios Turísticos de Sernatur","En el Registro de Pilotos","En el Colegio de Abogados","En ningún lugar"],0],
+  [3,"¿Dónde deben inscribirse los guías de turismo en Chile?",["En el Registro Nacional de Prestadores de Servicios Turísticos de Sernatur","En el Registro de Conductores","En el Colegio de Abogados","En ningún lugar"],0],
   [3,"¿Qué es un tour leader (coordinador de grupo)?",["La persona que acompaña al grupo durante todo el viaje, coordinando los servicios","El chofer del bus","El dueño de la agencia","El guía local de un museo"],0],
   [4,"¿Qué es la interpretación del patrimonio?",["Comunicar el valor y el significado de un lugar de forma atractiva y comprensible","Traducir del inglés","Leer un libro","Dibujar mapas"],0],
   [5,"¿Qué debe tener previsto el guía por si un turista se pierde del grupo?",["Un punto y una hora de encuentro, y un contacto de emergencia","Nada","Seguir sin él","Culpar al turista"],0]]],
@@ -165,7 +164,7 @@ T("tu4","Destinos y patrimonio mundial","🌍","Turismo · Destinos internaciona
   [4,"¿Qué ciudad es famosa por sus canales y góndolas?",["Venecia","Ámsterdam","Brujas","Praga"],0],
   [5,"¿En qué país están las pirámides de Giza?",["Egipto","México","Sudán","Marruecos"],0]]],
  ["Cruceros y transporte","🚢",[
-  [1,"¿Qué es un crucero?",["Un viaje turístico en un gran barco con alojamiento y entretención a bordo","Un tipo de avión","Un bus de dos pisos","Un tren de alta velocidad"],0],
+  [1,"¿Qué es un crucero?",["Un viaje turístico en un gran barco con alojamiento y entretención a bordo","Un tipo de hotel","Un bus de dos pisos","Un tren de alta velocidad"],0],
   [2,"¿Qué es la recalada de un crucero?",["La llegada o escala del barco en un puerto","La comida a bordo","El camarote","La tripulación"],0],
   [3,"¿Qué es un camarote?",["La habitación de un barco","El comedor","El capitán","El puerto"],0],
   [3,"¿Qué puertos chilenos reciben más cruceros?",["Valparaíso, San Antonio y Punta Arenas","Rancagua y Talca","Calama y Ovalle","Temuco y Los Ángeles"],0],
@@ -176,7 +175,7 @@ T("tu4","Destinos y patrimonio mundial","🌍","Turismo · Destinos internaciona
   [2,"¿Cuál es la moneda de Perú?",["El sol","El peso","El boliviano","El real"],0],
   [2,"¿Cuál es la moneda de la Unión Europea?",["El euro","La libra","El franco","El dólar"],0],
   [3,"¿Cuál es la moneda de Brasil?",["El real","El peso","El sol","El euro"],0],
-  [4,"¿Qué es el tipo de cambio?",["El valor de una moneda expresado en otra","Un tipo de pasaje","La propina","La tarifa del hotel"],0],
+  [4,"¿Qué es el tipo de cambio?",["El valor de una moneda expresado en otra","Un tipo de habitación","La propina","La tarifa del hotel"],0],
   [5,"Si en Santiago son las 12:00 y rige UTC−3, ¿qué hora es en Londres (UTC+0)?",["15:00","09:00","12:00","00:00"],0]]]
 ],[
  ["Destinos más visitados del mundo 🌍",["París","Nueva York","Roma","Londres","Barcelona"],"Dubái, Tokio, Bangkok, Estambul, Cancún, Río de Janeiro"],
@@ -186,7 +185,7 @@ T("tu5","Marketing turístico y servicio al cliente","⭐","Turismo · Marketing
  ["Marketing mix","📣",[
   [1,"¿Qué son las 4P del marketing?",["Producto, precio, plaza (distribución) y promoción","Pan, papas, pollo y postre","Personal, piso, puerta y pasillo","Pasaporte, pasaje, playa y piscina"],0],
   [2,"¿Qué es la promoción en marketing?",["Las acciones para comunicar y dar a conocer un producto: publicidad, redes, ofertas","El precio final","El lugar de venta","La fabricación"],0],
-  [3,"¿Qué es la marca de un destino?",["La identidad e imagen con que se promociona un lugar","El logo de una aerolínea","Una tarjeta de crédito","El precio de entrada"],0],
+  [3,"¿Qué es la marca de un destino?",["La identidad e imagen con que se promociona un lugar","El logo de un hotel","Una tarjeta de crédito","El precio de entrada"],0],
   [3,"¿Qué es una ventaja competitiva?",["Algo que hace a un servicio mejor o distinto que la competencia","Un descuento obligatorio","Un error del competidor","Un premio de lotería"],0],
   [4,"¿Qué es el análisis FODA?",["El análisis de fortalezas, oportunidades, debilidades y amenazas","Finanzas, organización, dirección y administración","Fotos, ofertas, descuentos y avisos","Un tipo de hotel"],0],
   [5,"¿Qué es el marketing de contenidos?",["Crear contenido útil o atractivo (videos, blogs, fotos) para atraer clientes","Vender sin publicidad","Repartir volantes en la calle","Bajar los precios"],0]]],
@@ -202,13 +201,13 @@ T("tu5","Marketing turístico y servicio al cliente","⭐","Turismo · Marketing
   [2,"¿Qué es un 'momento de verdad'?",["Cada contacto del cliente con la empresa que forma su opinión del servicio","La hora del check-out","Un reclamo formal","Una auditoría"],0],
   [3,"¿Qué es la empatía en el servicio?",["Ponerse en el lugar del cliente para entender sus necesidades","Decir siempre que sí","Hablar mucho","Ser serio"],0],
   [3,"¿Qué es la comunicación no verbal?",["Los gestos, la postura, las miradas y las expresiones que acompañan lo que decimos","Hablar por teléfono","Escribir correos","Hablar otro idioma"],0],
-  [4,"¿Qué es el modelo SERVQUAL?",["Un modelo que mide la calidad del servicio comparando expectativas y percepciones","Un software de reservas","Una cadena hotelera","Un código IATA"],0],
+  [4,"¿Qué es el modelo SERVQUAL?",["Un modelo que mide la calidad del servicio comparando expectativas y percepciones","Un software de reservas","Una cadena hotelera","Un tipo de habitación"],0],
   [5,"¿Qué es la hospitalidad?",["La actitud de recibir y atender a los visitantes con calidez y generosidad","Trabajar en un hospital","Un tipo de habitación","Un plan de alimentación"],0]]],
  ["Ventas online y reseñas","💻",[
   [1,"¿Qué es una reseña online?",["La opinión que deja un cliente en internet sobre un servicio","Un pago por internet","Una reserva cancelada","Una foto del hotel"],0],
   [2,"¿Qué sitio es muy conocido por las opiniones de viajeros?",["TripAdvisor","LinkedIn","Wikipedia","Spotify"],0],
   [3,"¿Cómo debe responder un hotel a una reseña negativa?",["Con respeto: agradeciendo, reconociendo el problema y explicando cómo se solucionará","Insultando al cliente","Ignorándola siempre","Borrando su cuenta"],0],
-  [3,"¿Qué es un metabuscador como Trivago o Google Hotels?",["Un sitio que compara precios de muchos canales en una sola búsqueda","Una aerolínea","Un hotel","Un banco"],0],
+  [3,"¿Qué es un metabuscador como Trivago o Google Hotels?",["Un sitio que compara precios de muchos canales en una sola búsqueda","Una agencia de viajes","Un hotel","Un banco"],0],
   [4,"¿Qué es la venta adicional (upselling)?",["Ofrecer al cliente un servicio superior o adicional al que ya compró","Bajar el precio","Vender en la calle","Cancelar la venta"],0],
   [5,"¿Qué es la tasa de conversión de un sitio web?",["El porcentaje de visitantes que terminan haciendo una reserva o compra","El tipo de cambio","La velocidad de la página","El número de fotos"],0]]],
  ["Manejo de reclamos","😠",[

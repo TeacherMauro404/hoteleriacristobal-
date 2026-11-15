@@ -13,7 +13,7 @@ Juegos en equipo para proyectar en clases con estudiantes de **Hotelería y Turi
   - duelo y caja fuerte misteriosa.
 - Escalera al éxito
 - Ruleta
-- Vuelta al mundo (carrera)
+- Ruta al hotel (carrera de buses)
 - Relámpago
 - Bomba Party
 - Top 5
@@ -22,7 +22,7 @@ Juegos en equipo para proyectar en clases con estudiantes de **Hotelería y Turi
 | Archivo | Contenido |
 |---|---|
 | `hoteleria.js` | Recepción y reservas · Housekeeping · Salón comedor · Bar, vinos y coctelería · Eventos y protocolo · Gestión hotelera y revenue · Higiene, seguridad y primeros auxilios · Taller de gastronomía |
-| `turismo.js` | Industria turística · Agencias y tour operador · Guiado y destinos de Chile · Destinos y patrimonio mundial · Marketing y servicio al cliente |
+| `turismo.js` | Industria turística · Agencias de viajes · Guiado y destinos de Chile · Destinos y patrimonio mundial · Marketing y servicio al cliente |
 | `english.js` | Front Desk · Restaurant & Bar · Housekeeping & Guest Requests · Travel & Tourism · Polite English for Customer Service |
 | `glosario.js` | Siglas hoteleras · términos de recepción y A&B · planes de alimentación · términos de turismo · cargos |
 | `retos.js` | Datos y motor de los retos |
